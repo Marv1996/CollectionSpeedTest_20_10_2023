@@ -17,10 +17,10 @@ public class Main {
         System.out.println(removeSpeed(arrayList));
         System.out.println("-----LinkedList-----");
         System.out.println(removeSpeed(linkedList));
-
     }
 
-    public static double removeSpeed(Collection collection) {
+
+    public static double removeSpeed(Collection<Integer> collection) {
         long start = System.currentTimeMillis();
         Iterator<Integer> iterator = collection.iterator();
         while (iterator.hasNext()) {
